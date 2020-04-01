@@ -1,0 +1,18 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-items: space-between;
+}
+
+.col-right {
+  width: 20%;
+}
+
+.col-center {
+  width: 50%;
+}
+
+.col-left {
+  width: 20%;
+}

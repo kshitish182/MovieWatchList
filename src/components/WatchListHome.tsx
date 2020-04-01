@@ -1,7 +1,13 @@
 import * as React from 'react';
 
+import Header from "./Header";
+import Main from "./Main";
+
 const WatchListHome = () => (
-  <div>content</div>
+  <>
+    <Header/>
+    <Main/>
+  </>
 );
 
 export default WatchListHome;
