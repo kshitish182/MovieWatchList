@@ -2,7 +2,7 @@
   width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-items: space-between;
+  justify-content: space-between;
 }
 
 .col-right {
@@ -15,4 +15,14 @@
 
 .col-left {
   width: 20%;
+}
+
+.full-height {
+  height: 100%;
+  max-height: 100%;
+}
+
+.full-height .container {
+  height: 100%;
+  max-height: 100%;
 }

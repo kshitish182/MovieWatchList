@@ -3,15 +3,13 @@ import * as React from 'react';
 const Header = () => (
   <header>
     <div className="container">
-      <div className="col-left">
-        Left
-      </div>
+      <div className="col-left" />
       <div className="col-center">
-          App Title
+        <div className="title--header">
+          MovieWatchList
+        </div>
       </div>
-      <div className="col-right">
-          Right
-      </div>
+      <div className="col-right"/>
     </div>
   </header>
 );
